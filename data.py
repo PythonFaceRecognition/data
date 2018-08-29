@@ -3,7 +3,7 @@ import numpy as np
 import dlib
 import os
 
-
+#111
 def movie(input_folder, output_image_folder):
     detector = dlib.get_frontal_face_detector()
     items = os.listdir(input_folder)  # 取得指定目錄中所有的檔案與子目錄名稱取得指定目錄中所有的檔案與子目錄名稱
